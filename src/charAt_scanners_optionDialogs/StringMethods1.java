@@ -1,4 +1,7 @@
 package charAt_scanners_optionDialogs;
+
+
+
 //    Copyright (c) The League of Amazing Programmers 2013-2017
 //    Level 0
 
@@ -28,7 +31,7 @@ public class StringMethods1 {
 //		    Print the char's position to the console.
 //		    EXAMPLE: if your string is "abc" and you are searching 
 //		             for char 'b', then print "b is at index 1"
-		
+         
 		   char ch='l';
 		   
 		   for(int i=0;i<Variable.length();i++) {
