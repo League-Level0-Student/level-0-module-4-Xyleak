@@ -26,8 +26,13 @@ for (int i = 3; i < 9; i++) {
 
 			int task = JOptionPane.showOptionDialog(null, "What Do You Do?", "Deku", 0, JOptionPane.INFORMATION_MESSAGE, null,
 					new String[] { "Green", "Yellow", "Red", "Pink" }, null);
-            task  = (1);
-			//if(1 = "Green") {JOptionPane.showMessageDialog(null,"Your Pet Is Now Very Emotional"); break;}
+             
+			if ("Green" != null) {JOptionPane.showMessageDialog(null,"Now Your Pet Looks An All Might Fan Boy (Happy)");}
+if("Yellow" != null) {JOptionPane.showMessageDialog(null, "Your Pet Now Want's To Make A Blue Ball And Hit Someone With It (Okish)");}
+if("Red" !=null) {JOptionPane.showMessageDialog(null, "Your Pet May Have Done Something When You Were Away. After All He Is Red (;-;)");}
+if("Pink" !=null) {JOptionPane.showMessageDialog(null, "Your Pet Is Pink, Histroy Has Told Us People With Pink Hair Are Useless So Get A Rid Of That Pet As Quick As Possible (USELESS)");
+
+}
 
 			// 6. If you determine the happiness level is large enough, tell the
 			//    user that he loves his pet and use break; to exit for loop.
